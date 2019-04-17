@@ -8,6 +8,7 @@ import router from './router/router';
 import store from './store/store';
 import axios from 'axios';
 
+
 Vue.use(ElementUI);
 Vue.prototype.$axios = axios;
 
