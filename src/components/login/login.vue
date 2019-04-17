@@ -102,7 +102,7 @@ export default {
         _this.loading = false;
           if(res.status == 200) {
             console.log(res)
-            // _this.$router.push('/home');
+            _this.$router.push('/home');
           }
       }).catch(err=>{
         _this.loading = false;
